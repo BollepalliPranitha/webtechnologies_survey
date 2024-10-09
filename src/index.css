@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* General styling for body */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Style the navbar */
+nav {
+  background-color: #2c3e50;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+  background-color: #f39c12;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Section styling */
+section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-10px);
+}
+
+/* Home section */
+#home {
+  background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%);
+  color: #fff;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content section */
+#content {
+  background-color: #fdfdfd;
+}
+
+#content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #34495e;
+}
+
+#content p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+/* Taxonomy section */
+#taxonomy {
+  background-color: #ecf0f1;
+}
+
+#taxonomy h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f39c12;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+table td {
+  background-color: #f4f4f4;
+}
+
+table tr:nth-child(even) td {
+  background-color: #fafafa;
+}
+/* Team Section */
+#team {
+  background: linear-gradient(120deg, #3498db, #8e44ad);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#team h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Flex container for team members, changed to column layout */
+#team div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Team member container with sequential animation */
+.team-member {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s ease-in-out forwards;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Animation to fade in team members one after the other */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Delaying the appearance of each team member for sequential effect */
+.team-member:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.team-member:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.team-member:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.team-member:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+/* Team member image */
+#team img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#team img:hover {
+  transform: scale(1.1);
+}
+
+#team h3 {
+  color: #f1c40f;
+  margin-top: 15px;
+}
+
+#team p {
+  font-size: 1rem;
+  max-width: 200px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  #team div {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #team img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #team h2 {
+    font-size: 2rem;
+  }
+}
