@@ -1,12 +1,12 @@
 import React from "react";
-
+import Profile1 from "./images/Profile1.jpg";
 function Team() {
   return (
     <section id="team">
       <h2>Meet the Team</h2>
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <div>
-          <img src="https://via.placeholder.com/150" alt="Team Member 1" />
+          <img src={Profile1} alt="Team Member 1" />
           <h3>Pranitha Bollepalli</h3>
           <p>Masters Student in Computer science at Saint Louis University.</p>
         </div>
