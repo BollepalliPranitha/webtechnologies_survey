@@ -1,5 +1,6 @@
 import React from "react";
 import Profile1 from "./images/Profile1.jpg";
+import Profile2 from "./images/Profile2.jpg";
 function Team() {
   return (
     <section id="team">
@@ -26,7 +27,7 @@ function Team() {
           <p>Masters Student in Computer science at Saint Louis University.</p>
         </div>
         <div>
-          <img src="https://via.placeholder.com/150" alt="Team Member 5" />
+          <img src={Profile2} alt="Team Member 5" />
           <h3>Sri Vaagdevi Bangari</h3>
           <p>Masters Student in Computer science at Saint Louis University.</p>
         </div>
