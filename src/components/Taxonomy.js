@@ -192,6 +192,7 @@ function Taxonomy() {
       findings: "Anomaly detection techniques enhance security in QUIC traffic."
     }
   ];
+
   return (
     <section id="taxonomy">
       <h2>Taxonomy of Papers</h2>

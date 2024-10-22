@@ -1,17 +1,17 @@
-/* Show table by default (desktop view) */
+/* Table is visible by default for desktop */
 .taxonomy-table {
     display: block;
   }
   
-  /* Hide cards by default */
+  /* Cards are hidden by default */
   .taxonomy-cards {
     display: none;
   }
   
-  /* Styles for the card layout */
+  /* Add temporary styling to visualize the cards */
   .paper-card {
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid red; /* Add a red border to see if cards appear */
     border-radius: 8px;
     padding: 15px;
     margin: 10px 0;
@@ -28,8 +28,8 @@
     margin: 5px 0;
   }
   
-  /* Responsive design for mobile view */
-  @media (max-width: 768px) {
+  /* Mobile Styles - trigger this at smaller screen widths */
+  @media (max-width : 600px) {
     .taxonomy-table {
       display: none; /* Hide table on mobile */
     }
@@ -38,4 +38,12 @@
       display: block; /* Show cards on mobile */
     }
   }
+  @media (min-width: 1024px) {
+    .taxonomy-table {
+      display: block; /* Show table on desktop */
+    }
   
+    .taxonomy-cards {
+      display: none; /* Hide cards on desktop */
+    }
+  }
