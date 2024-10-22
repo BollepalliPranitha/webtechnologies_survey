@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webtechnologies_survey/static/css/main.a0c20183.css",
+    "main.css": "/webtechnologies_survey/static/css/main.9efcce8d.css",
     "main.js": "/webtechnologies_survey/static/js/main.e8bc7966.js",
     "static/media/Profile3.jpg": "/webtechnologies_survey/static/media/Profile3.c4cdba768e1a78cfd95e.jpg",
     "static/media/Profile1.jpg": "/webtechnologies_survey/static/media/Profile1.3293448a539798f1cb15.jpg",
@@ -8,11 +8,11 @@
     "static/media/Profile5.JPG": "/webtechnologies_survey/static/media/Profile5.282b821d8d2b1ec82e55.JPG",
     "static/media/Profile4.JPG": "/webtechnologies_survey/static/media/Profile4.32ed5b8e28ccea2079bf.JPG",
     "index.html": "/webtechnologies_survey/index.html",
-    "main.a0c20183.css.map": "/webtechnologies_survey/static/css/main.a0c20183.css.map",
+    "main.9efcce8d.css.map": "/webtechnologies_survey/static/css/main.9efcce8d.css.map",
     "main.e8bc7966.js.map": "/webtechnologies_survey/static/js/main.e8bc7966.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0c20183.css",
+    "static/css/main.9efcce8d.css",
     "static/js/main.e8bc7966.js"
   ]
 }
