@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import {  Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
+
 import Home from './components/Home';
 import Content from './components/Content';
 import Taxonomy from './components/Taxonomy';
