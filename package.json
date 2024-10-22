@@ -1,8 +1,8 @@
 {
+  "homepage": "https://SriVaagdevi.github.io/webtechnologies_survey",
   "name": "app1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BollepalliPranitha.github.io/webtechnologies_survey",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,9 +10,9 @@
     "deploy": "^1.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-    
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }

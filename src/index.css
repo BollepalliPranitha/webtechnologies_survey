@@ -4,20 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 
 /* General styling for body */
 body {
-  background-color: #f5f5f5;
+  background-color: white;
   color: #333;
   line-height: 1.6;
 }
 
 /* Style the navbar */
 nav {
-  background-color: #2c3e50;
+  background: linear-gradient(135deg,#eeb173 20%, #469673 80%);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a.active {
-  background-color: #f39c12;
+  background-color: #c9b2a4;
   color: #fff;
   transform: scale(1.1);
 }
@@ -55,7 +55,7 @@ section {
   padding: 80px 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #f7f6f6;
   margin-bottom: 50px;
   border-radius: 10px;
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
@@ -68,14 +68,15 @@ section:hover {
 
 /* Home section */
 #home {
-  background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%);
-  color: #fff;
+  background: linear-gradient(135deg, #469673 20%, #eeb173 80%);
+  color: #f7f6f6;
   text-align: center;
+  margin-top: 70px;
 }
 
 #home h1 {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #home p {
@@ -86,40 +87,43 @@ section:hover {
 
 /* Content section */
 #content {
-  background-color: #fdfdfd;
+  background: linear-gradient(135deg, #469673 20%, #eeb173 80%);
+  margin-top: 70px;
 }
 
 #content h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 30px;
   text-align: center;
-  color: #34495e;
+  color: #ffffff;
 }
 
 #content p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   max-width: 800px;
   margin: 0 auto;
   text-align: justify;
   line-height: 1.8;
+  color: white;
 }
 
 /* Taxonomy section */
 #taxonomy {
-  background-color: #ecf0f1;
+  background: linear-gradient(135deg, #469673 20%, #eeb173 80%);
+  margin-top: 40px;
 }
 
 #taxonomy h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 30px;
+  color: #fff;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 table th, table td {
@@ -129,24 +133,88 @@ table th, table td {
 }
 
 table th {
-  background-color: #f39c12;
+  background-color: #1b7e58;
   color: #fff;
   text-transform: uppercase;
 }
 
 table td {
-  background-color: #f4f4f4;
+  background-color: #b2f0da;
 }
 
 table tr:nth-child(even) td {
-  background-color: #fafafa;
+  background-color: #dff9ef;
 }
+
+/* Responsive Design */
+
+/* Make the table scrollable on smaller devices */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; /* Prevents wrapping of content */
+  }
+
+  table thead {
+    display: block;
+    float: left;
+    
+  }
+
+  table tbody {
+    display: block;
+    width: auto;
+    overflow-x: auto;
+  }
+
+  table th, table td {
+    display: inline-block;
+    min-width: 120px;
+  }
+
+  table th {
+    text-align: center;
+  }
+
+  /* Align cells more neatly */
+  table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+}
+
+/* For extra small devices like phones */
+@media (max-width: 480px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  table thead, table tbody {
+    display: block;
+  }
+
+  table th, table td {
+    padding: 10px;
+    font-size: 0.9rem;
+    min-width: 100px;
+    
+
+  }
+}
+
 /* Team Section */
+
 #team {
-  background: linear-gradient(120deg, #3498db, #8e44ad);
-  color: white;
+  background: linear-gradient(135deg, #469673 20%, #eeb173 80%);
+  color: rgb(240, 244, 241);
   padding: 100px 20px;
   text-align: center;
+  margin-top: 70px;
 }
 
 #team h2 {
@@ -154,20 +222,30 @@ table tr:nth-child(even) td {
   margin-bottom: 40px;
 }
 
-/* Flex container for team members, changed to column layout */
-#team div {
+/* Flex container for team members */
+.team-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to new lines on smaller screens */
+  justify-content: center;
+  gap: 40px; /* Space between team members */
+}
+
+/* Team member container */
+.team-member {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  width: calc(33.333% - 40px); /* 4 members per row on larger screens */
+  margin-bottom: 40px; /* Margin between rows */
+  perspective: 1000px; /* Required for 3D effect */
 }
 
-/* Team member container with sequential animation */
-.team-member {
-  opacity: 0;
-  transform: translateY(50px);
-  animation: fadeInUp 1s ease-in-out forwards;
-  transition: transform 0.3s ease-in-out;
+/* Flip card styles */
+.flip-card {
+  width: 180px; /* Set width for the card */
+  height: 250px; /* Increased height for better layout */
+  position: relative;
+  margin: 0 auto; /* Center the card */
 }
 
 /* Animation to fade in team members one after the other */
@@ -192,44 +270,76 @@ table tr:nth-child(even) td {
   animation-delay: 0.8s;
 }
 
-/* Team member image */
-#team img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out;
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d; /* Enable 3D effect */
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  backface-visibility: hidden; /* Hide the back face */
+  border-radius: 10px; /* Slightly rounded corners */
+}
+
+/* Front side styles */
+.flip-card-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #469673 20%, #eeb173 80%); /* Background for front */
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-#team img:hover {
-  transform: scale(1.1);
+.flip-card-front img {
+  border-radius: 50%;
+  width: 150px; /* Increased image size */
+  height: 150px; /* Increased image size */
+  object-fit: cover;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-#team h3 {
-  color: #f1c40f;
-  margin-top: 15px;
+.flip-card-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #7ecdab 20%, #f9dec3 80%); /* Background for back */
+  color: rgb(16, 16, 16); /* Text color for back */
+  transform: rotateY(180deg); /* Rotate back face */
 }
 
-#team p {
-  font-size: 1rem;
-  max-width: 200px;
+/* Flip card hover effect */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); /* Flip the card */
 }
 
-/* Responsive design for mobile */
+/* Responsive styles */
+.role {
+  margin-top: 10px; /* Spacing for role text */
+  font-size: 1rem; /* Font size for role text */
+}
+
+@media (max-width: 1024px) {
+  .team-member {
+    width: calc(33.333% - 40px); /* 3 members per row on medium screens */
+  }
+}
+
 @media (max-width: 768px) {
-  #team div {
-    gap: 20px;
+  .team-member {
+    width: calc(50% - 40px); /* 2 members per row on smaller screens */
   }
 }
 
-@media (max-width: 576px) {
-  #team img {
-    width: 120px;
-    height: 120px;
-  }
-
-  #team h2 {
-    font-size: 2rem;
+@media (max-width: 480px) {
+  .team-member {
+    width: 100%; /* 1 member per row on small screens */
   }
 }

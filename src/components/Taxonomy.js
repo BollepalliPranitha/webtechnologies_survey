@@ -17,194 +17,194 @@ function Taxonomy() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th>The Performance and Future of QUIC Protocol</th>
-            <th>Latency</th>
-            <th>Optimization Theory</th>
-            <th>QUIC</th>
-            <th>Theoretical Analysis</th>
-            <th>Web-based Browsing</th>
-            <th>QUIC reduces significantly in high-latency networks.</th>
+        <tr>
+            <td>Tde Performance and Future of QUIC Protocol</td>
+            <td>Latency</td>
+            <td>Optimization Tdeory</td>
+            <td>QUIC</td>
+            <td>Theoretical Analysis</td>
+            <td>Web-based Browsing</td>
+            <td>QUIC reduces significantly in high-latency networks.</td>
           </tr>
           <tr>
-            <th>Hypertext Transfer Protocol Version 2 (HTTP/2)</th>
-            <th>Latency</th>
-            <th>Stream Multiplexing</th>
-            <th>HTTP/2</th>
-            <th>Simulation</th>
-            <th>General Web Content Delivery</th>
-            <th>HTTP/2 improves upon HTTP/1.1 through stream multiplexing.</th>
+            <td>Hypertext Transfer Protocol Version 2 (HTTP/2)</td>
+            <td>Latency</td>
+            <td>Stream Multiplexing</td>
+            <td>HTTP/2</td>
+            <td>Simulation</td>
+            <td>General Web Content Delivery</td>
+            <td>HTTP/2 improves upon HTTP/1.1 tdrough stream multiplexing.</td>
           </tr>
           <tr>
-            <th>Assessing the Interplay Between WebRTC and QUIC Congestion Control Algorithms</th>
-            <th>Congestion Control</th>
-            <th>Control Theory</th>
-            <th>WedRTC, QUIC</th>
-            <th>Experimental</th>
-            <th>Real-Time Video Streaming</th>
-            <th>QUIC improves WebRTC performance in poor network conditions.</th>
+            <td>Assessing tde Interplay Between WebRTC and QUIC Congestion Control Algoritdms</td>
+            <td>Congestion Control</td>
+            <td>Control Theory</td>
+            <td>WedRTC, QUIC</td>
+            <td>Experimental</td>
+            <td>Real-Time Video Streaming</td>
+            <td>QUIC improves WebRTC performance in poor network conditions.</td>
           </tr>
           <tr>
-            <th>Implementation and Analysis of Real-Time Streaming Protocols</th>
-            <th>Real-Time Communication</th>
-            <th>System Implementation</th>
-            <th>WebRTC, RTSP</th>
-            <th>Real-World Prototyping</th>
-            <th>Video Conferencing</th>
-            <th>WebRTC outperforms RTSP in mobile streaming environments.</th>
+            <td>Implementation and Analysis of Real-Time Streaming Protocols</td>
+            <td>Real-Time Communication</td>
+            <td>System Implementation</td>
+            <td>WebRTC, RTSP</td>
+            <td>Real-World Prototyping</td>
+            <td>Video Conferencing</td>
+            <td>WebRTC outperforms RTSP in mobile streaming environments.</td>
           </tr>
           <tr>
-            <th>Robust QUIC-Based Signalling for WebRTC</th>
-            <th>Reliability, Packet Loss</th>
-            <th>Protocol Design</th>
-            <th>WebRTC, QUIC</th>
-            <th>Simulation and Real-World Test</th>
-            <th>Peer-to-Peer Video Communication</th>
-            <th>QUIC-based signaling improves WebRTC reliability.</th>
+            <td>Robust QUIC-Based Signalling for WebRTC</td>
+            <td>Reliability, Packet Loss</td>
+            <td>Protocol Design</td>
+            <td>WebRTC, QUIC</td>
+            <td>Simulation and Real-World Test</td>
+            <td>Peer-to-Peer Video Communication</td>
+            <td>QUIC-based signaling improves WebRTC reliability.</td>
           </tr>
           <tr>
-            <th>Cross-Protocol Unfairness Between Adaptive Streaming over HTTP/2 and QUIC</th>
-            <th>Congestion Control, Fairness</th>
-            <th>Mixed Traffic Optimization</th>
-            <th>HTTP/2, QUIC</th>
-            <th>Simulation</th>
-            <th>Mixed Protocol Networks</th>
-            <th>QUIC outperforms HTTP/2 in mixed-protocol environments</th>
+            <td>Cross-Protocol Unfairness Between Adaptive Streaming over HTTP/2 and QUIC</td>
+            <td>Congestion Control, Fairness</td>
+            <td>Mixed Traffic Optimization</td>
+            <td>HTTP/2, QUIC</td>
+            <td>Simulation</td>
+            <td>Mixed Protocol Networks</td>
+            <td>QUIC outperforms HTTP/2 in mixed-protocol environments</td>
           </tr>
           <tr>
-            <th>Beyond QUIC v1: A First Look at Recent Transport Layer IETF Standardization Efforts</th>
-            <th>Multipath Support</th>
-            <th>Protocol Extension</th>
-            <th>QUIC</th>
-            <th>Simulation</th>
-            <th>Multipath Streaming</th>
-            <th>QUIC multipath extension improves reliability and bandwidth usage.</th>
+            <td>Beyond QUIC v1: A First Look at Recent Transport Layer IETF Standardization Efforts</td>
+            <td>Multipatd Support</td>
+            <td>Protocol Extension</td>
+            <td>QUIC</td>
+            <td>Simulation</td>
+            <td>Multipatd Streaming</td>
+            <td>QUIC multipatd extension improves reliability and bandwidtd usage.</td>
           </tr>
           <tr>
-            <th>TCP Fast Open</th>
-            <th>Latency</th>
-            <th>TCP Fast Open</th>
-            <th>TCP, QUIC</th>
-            <th>Theoretical Analysis</th>
-            <th>General Web Browsing</th>
-            <th>TCP Fast Open reduces handshake latency but is still outperformed by QUIC.</th>
+            <td>TCP Fast Open</td>
+            <td>Latency</td>
+            <td>TCP Fast Open</td>
+            <td>TCP, QUIC</td>
+            <td>Tdeoretical Analysis</td>
+            <td>General Web Browsing</td>
+            <td>TCP Fast Open reduces handshake latency but is still outperformed by QUIC.</td>
           </tr>
           <tr>
-            <th>A Survey on Video Streaming in Multipath Environments</th>
-            <th>Bandwidth Aggregation</th>
-            <th>Multipath Techniques</th>
-            <th>MPTCP, QUIC</th>
-            <th>Simulation</th>
-            <th>Mobile Streaming</th>
-            <th>Multipath techniques enhance bandwidth utilization and reliability.</th>
+            <td>A Survey on Video Streaming in Multipatd Environments</td>
+            <td>Bandwidtd Aggregation</td>
+            <td>Multipatd Techniques</td>
+            <td>MPTCP, QUIC</td>
+            <td>Simulation</td>
+            <td>Mobile Streaming</td>
+            <td>Multipatd techniques enhance bandwidtd utilization and reliability.</td>
           </tr>
           <tr>
-            <th>Machine Learning at the Mobile Edge: The Case of Dynamic Adaptive Streaming over HTTP (DASH)</th>
-            <th>Video Streaming</th>
-            <th>Reinforcement Learning</th>
-            <th>DASH, HTTP/2</th>
-            <th>Simulation</th>
-            <th>Video on Demand</th>
-            <th>Reinforcement learning optimizes video quality in varying network conditions.</th>
+            <td>Machine Learning at tde Mobile Edge: Tde Case of Dynamic Adaptive Streaming over HTTP (DASH)</td>
+            <td>Video Streaming</td>
+            <td>Reinforcement Learning</td>
+            <td>DASH, HTTP/2</td>
+            <td>Simulation</td>
+            <td>Video on Demand</td>
+            <td>Reinforcement learning optimizes video quality in varying network conditions.</td>
           </tr>
           <tr>
-            <th>The Challenges and Limitations of QUIC Protocol Adoption</th>
-            <th>Firewall Traversal</th>
-            <th>Protocol Modifications</th>
-            <th>QUIC</th>
-            <th>System Implementation</th>
-            <th>Corporate Networks</th>
-            <th>QUIC firewall traversal can be improved by distinguishing QUIC traffic from UDP.</th>
+            <td>Tde Challenges and Limitations of QUIC Protocol Adoption</td>
+            <td>Firewall Traversal</td>
+            <td>Protocol Modifications</td>
+            <td>QUIC</td>
+            <td>System Implementation</td>
+            <td>Corporate Networks</td>
+            <td>QUIC firewall traversal can be improved by distinguishing QUIC traffic from UDP.</td>
           </tr>
           <tr>
-            <th>The QUIC Transport Protocol: Design and Internet-Scale Deployment</th>
-            <th>Latency, Congestion Control</th>
-            <th>Forward Error Correction</th>
-            <th>QUIC, HTTP/3</th>
-            <th>Theoretical Analysis</th>
-            <th>General Web Content Delivery</th>
-            <th>FEC reduces packet loss in congested networks, improving latency.</th>
+            <td>Tde QUIC Transport Protocol: Design and Internet-Scale Deployment</td>
+            <td>Latency, Congestion Control</td>
+            <td>Forward Error Correction</td>
+            <td>QUIC, HTTP/3</td>
+            <td>Tdeoretical Analysis</td>
+            <td>General Web Content Delivery</td>
+            <td>FEC reduces packet loss in congested networks, improving latency.</td>
           </tr>
           <tr>
-            <th>WebRTC and Real-Time Communication</th>
-            <th>Video Streaming</th>
-            <th>Adaptive Bitrate Streaming</th>
-            <th>WebRTC, DASH</th>
-            <th>Real-World Testing</th>
-            <th>Real-Time Video</th>
-            <th>WebRTC provides better performance under fluctuating network conditions than DASH.</th>
+            <td>WebRTC and Real-Time Communication</td>
+            <td>Video Streaming</td>
+            <td>Adaptive Bitrate Streaming</td>
+            <td>WebRTC, DASH</td>
+            <td>Real-World Testing</td>
+            <td>Real-Time Video</td>
+            <td>WebRTC provides better performance under fluctuating network conditions tdan DASH.</td>
           </tr>
           <tr>
-            <th>Optimizing Mobile Streaming over QUIC</th>
-            <th>Reliability</th>
-            <th>Protocol Tuning</th>
-            <th>QUIC, HTTP/2</th>
-            <th>System Implementation</th>
-            <th>Mobile Networks</th>
-            <th>Tuned QUIC protocol enhances connection stability in mobile environments.</th>
+            <td>Optimizing Mobile Streaming over QUIC</td>
+            <td>Reliability</td>
+            <td>Protocol Tuning</td>
+            <td>QUIC, HTTP/2</td>
+            <td>System Implementation</td>
+            <td>Mobile Networks</td>
+            <td>Tuned QUIC protocol enhances connection stability in mobile environments.</td>
           </tr>
           <tr>
-            <th>Point Cloud Streaming over HTTP/2</th>
-            <th>3D Streaming</th>
-            <th>HTTP/2 Stream Multiplexing</th>
-            <th>HTTP/2</th>
-            <th>System Implementation</th>
-            <th>3D Point Cloud Streaming</th>
-            <th>HTTP/2's stream multiplexing is well-suited for high-bandwidth 3D data.</th>
+            <td>Point Cloud Streaming over HTTP/2</td>
+            <td>3D Streaming</td>
+            <td>HTTP/2 Stream Multiplexing</td>
+            <td>HTTP/2</td>
+            <td>System Implementation</td>
+            <td>3D Point Cloud Streaming</td>
+            <td>HTTP/2's stream multiplexing is well-suited for high-bandwidtd 3D data.</td>
           </tr>
           <tr>
-            <th>WebRTC: An Analysis of Low-Latency Streaming</th>
-            <th>Latency, Congestion Control</th>
-            <th>Heuristic Algorithms</th>
-            <th>WebRTC</th>
-            <th>Simulation</th>
-            <th>Real-Time Communication</th>
-            <th>WebRTC's congestion control benefits from heuristic algorithms.</th>
+            <td>WebRTC: An Analysis of Low-Latency Streaming</td>
+            <td>Latency, Congestion Control</td>
+            <td>Heuristic Algoritdms</td>
+            <td>WebRTC</td>
+            <td>Simulation</td>
+            <td>Real-Time Communication</td>
+            <td>WebRTC's congestion control benefits from heuristic algoritdms.</td>
           </tr>
           <tr>
-            <th>QUIC and TCP in Mixed Protocol Networks</th>
-            <th>Mixed Protocol Fairness</th>
-            <th>Differential Bandwidth Allocation</th>
-            <th>QUIC, HTTP/2</th>
-            <th>Experimental</th>
-            <th>Mixed Protocol Networks</th>
-            <th>Fairness issues arise between TCP-based and UDP-based protocols.</th>
+            <td>QUIC and TCP in Mixed Protocol Networks</td>
+            <td>Mixed Protocol Fairness</td>
+            <td>Differential Bandwidtd Allocation</td>
+            <td>QUIC, HTTP/2</td>
+            <td>Experimental</td>
+            <td>Mixed Protocol Networks</td>
+            <td>Fairness issues arise between TCP-based and UDP-based protocols.</td>
           </tr>
           <tr>
-            <th>Multipath QUIC for Edge Computing</th>
-            <th>Bandwidth Optimization</th>
-            <th>Multipath Bandwidth Aggregation</th>
-            <th>QUIC, HTTP/3</th>
-            <th>Simulation and Real-World Test</th>
-            <th>Mobile and Edge Computing</th>
-            <th>QUIC’s multipath feature optimizes bandwidth usage across multiple connections.</th>
+            <td>Multipatd QUIC for Edge Computing</td>
+            <td>Bandwidtd Optimization</td>
+            <td>Multipatd Bandwidtd Aggregation</td>
+            <td>QUIC, HTTP/3</td>
+            <td>Simulation and Real-World Test</td>
+            <td>Mobile and Edge Computing</td>
+            <td>QUIC’s multipatd feature optimizes bandwidtd usage across multiple connections.</td>
           </tr>
           <tr>
-            <th>Predicting Network Conditions for Streaming Optimization</th>
-            <th>Video Quality</th>
-            <th>Machine Learning</th>
-            <th>DASH, QUIC</th>
-            <th>Simulation</th>
-            <th>Video Streaming</th>
-            <th>Machine learning improves video streaming quality by predicting network conditions.</th>
+            <td>Predicting Network Conditions for Streaming Optimization</td>
+            <td>Video Quality</td>
+            <td>Machine Learning</td>
+            <td>DASH, QUIC</td>
+            <td>Simulation</td>
+            <td>Video Streaming</td>
+            <td>Machine learning improves video streaming quality by predicting network conditions.</td>
           </tr>
           <tr>
-            <th>Dynamic Adaptive Streaming Over QUIC</th>
-            <th>Congestion Control</th>
-            <th>Adaptive Algorithms</th>
-            <th>QUIC</th>
-            <th>Simulation</th>
-            <th>Low-Latency Streaming</th>
-            <th>Adaptive congestion control in QUIC enhances streaming under fluctuating bandwidth.</th>
+            <td>Dynamic Adaptive Streaming Over QUIC</td>
+            <td>Congestion Control</td>
+            <td>Adaptive Algoritdms</td>
+            <td>QUIC</td>
+            <td>Simulation</td>
+            <td>Low-Latency Streaming</td>
+            <td>Adaptive congestion control in QUIC enhances streaming under fluctuating bandwidtd.</td>
           </tr>
           <tr>
-            <th>Security Mechanisms for QUIC Traffic</th>
-            <th>Security</th>
-            <th>Anomaly Detection</th>
-            <th>QUIC</th>
-            <th>Theoretical Analysis</th>
-            <th>Corporate Networks</th>
-            <th>Anomaly detection techniques enhance security in QUIC traffic.</th>
+            <td>Security Mechanisms for QUIC Traffic</td>
+            <td>Security</td>
+            <td>Anomaly Detection</td>
+            <td>QUIC</td>
+            <td>Theoretical Analysis</td>
+            <td>Corporate Networks</td>
+            <td>Anomaly detection techniques enhance security in QUIC traffic.</td>
           </tr>
         </tbody>
       </table>

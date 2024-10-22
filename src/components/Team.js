@@ -1,39 +1,70 @@
 import React from "react";
 import Profile1 from "./images/Profile1.jpg";
 import Profile2 from "./images/Profile2.jpg";
-function Team() {
-  return (
-    <section id="team">
-      <h2>Meet the Team</h2>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
-        <div>
-          <img src={Profile1} alt="Team Member 1" />
-          <h3>Pranitha Bollepalli</h3>
-          <p>Masters Student in Computer science at Saint Louis University.</p>
-        </div>
-        <div>
-          <img src="https://via.placeholder.com/150" alt="Team Member 2" />
-          <h3>Jeetkumar patel</h3>
-          <p>Masters Student in Computer science at Saint Louis University.</p>
-        </div>
-        <div>
-          <img src="https://via.placeholder.com/150" alt="Team Member 3" />
-          <h3>Josh udzynski</h3>
-          <p>Masters Student in Computer science at Saint Louis University.</p>
-        </div>
-        <div>
-          <img src="https://via.placeholder.com/150" alt="Team Member 4" />
-          <h3>Manoj</h3>
-          <p>Masters Student in Computer science at Saint Louis University.</p>
-        </div>
-        <div>
-          <img src={Profile2} alt="Team Member 5" />
-          <h3>Sri Vaagdevi Bangari</h3>
-          <p>Masters Student in Computer science at Saint Louis University.</p>
-        </div>
-      </div>
-    </section>
-  );
-}
+import Profile3 from "./images/Profile3.jpg";
+import Profile4 from "./images/Profile4.JPG";
+import Profile5 from "./images/Profile5.JPG";
 
-export default Team;
+  function Team() {
+    const teamMembers = [
+      {
+        name: "Pranitha Bollepalli",
+        description: "Masters Student in Computer Science at Saint Louis University",
+        role: "Website Developer",
+        img: Profile1
+      },
+      {
+        name: "Jeetkumar Patel",
+        description: "Masters Student in Computer Science at Saint Louis University",
+        role: "Content Validator",
+        img: Profile3
+      },
+      {
+        name: "Josh Udczynski",
+        description: "Masters Student in Computer Science at Saint Louis University",
+        role: "Report Writer",
+        img: Profile5
+      },
+      {
+        name: "Manoj",
+        description: "Masters Student in Computer Science at Saint Louis University",
+        role: "Content Validator",
+        img: Profile4
+      },
+      {
+        name: "Sri Vaagdevi Bangari",
+        description: "Masters Student in Computer Science at Saint Louis University",
+        role: "Website Developer",
+        img: Profile2
+      },
+    ];
+  
+    return (
+      <section id="team">
+        <h2>Meet the Team</h2>
+        <div className="team-container">
+          {teamMembers.map((member, index) => (
+            <div className="team-member" key={index}>
+              <div className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <img src={member.img} alt={`Team Member ${index + 1}`} />
+                    <h3>{member.name}</h3>
+                    <p>{member.description}</p>
+                  </div>
+                  <div className="flip-card-back">
+                    <h3>{member.name}</h3>
+                    <p className="role">{member.role}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    );
+  }
+  
+  export default Team;
+  
+  
