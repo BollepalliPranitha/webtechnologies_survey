@@ -1,0 +1,48 @@
+/* General styles */
+.taxonomy-table {
+    display: block; /* Table is displayed by default */
+  }
+  
+  .taxonomy-cards {
+    display: none; /* Cards are hidden by default */
+  }
+  
+  /* Styling for the paper cards */
+  .paper-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .paper-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .paper-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .paper-card p {
+    margin: 5px 0;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .taxonomy-table {
+      display: none; /* Hide table on mobile */
+    }
+  
+    .taxonomy-cards {
+      display: block; /* Show cards on mobile */
+    }
+  }
+  
