@@ -195,7 +195,7 @@ function Taxonomy() {
   return (
     <section id="taxonomy">
       <h2>Taxonomy of Papers</h2>
-      
+
       {/* Table layout for desktop */}
       <div className="taxonomy-table">
         <table border="1" style={{ width: "100%", textAlign: "left" }}>
